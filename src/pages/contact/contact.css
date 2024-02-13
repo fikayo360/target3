@@ -1,0 +1,93 @@
+#contact{
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(327.21deg, rgba(33, 0, 75, 0.24) 3.65%, rgba(60, 0, 136, 0) 40.32%),
+    linear-gradient(245.93deg, rgba(209, 21, 111, 0.16) 0%, rgba(209, 25, 80, 0) 36.63%), linear-gradient(147.6deg, rgba(58, 19, 255, 0) 29.79%,
+     rgba(98, 19, 255, 0.01) 85.72%), #13111C;
+}
+
+#contactCenter{
+    display: flex;
+    width: 60%;
+    min-height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 25px;
+    border: 0.1px solid rgb(138, 109, 138);
+    background-color:rgba(163, 25, 175, 0.089) ;
+}
+
+#contactCenter form{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+#contactCenter h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#contactCenter h1{
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+#contactCenter form input,textarea{
+    border:0.5px solid rgb(133, 99, 133);
+    width:70%;
+    font-size: 1.1rem;
+    padding: 15px;
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#contactCenter form input,textarea::placeholder{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#contactCenter form input{
+    height: 3rem;
+}
+
+#contactCenter form textarea{
+   min-height: 4rem;
+}
+
+#contactCenter form button{
+    width: 38%;
+    height: 50px;
+    font-size: 1.1rem;
+    color: #ffff;
+    background-color: blueviolet;
+ }
+
+ @media(min-width:250px) and (max-width: 1024px){
+    #contactCenter{
+        width: 80%;
+        min-height: 450px;
+        gap: 2.5rem;
+    }
+
+    #contactCenter form input,textarea{ 
+        width:80%;
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+
+    #contactCenter form button{
+        height: 50px;
+        font-size: 1.1rem;
+     }
+}

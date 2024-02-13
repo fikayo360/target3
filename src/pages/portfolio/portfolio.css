@@ -1,0 +1,126 @@
+#portfolio{
+    width: 100vw;
+    padding: 20px;
+    background: linear-gradient(327.21deg, rgba(33, 0, 75, 0.24) 3.65%, rgba(60, 0, 136, 0) 40.32%),
+    linear-gradient(245.93deg, rgba(209, 21, 111, 0.16) 0%, rgba(209, 25, 80, 0) 36.63%), linear-gradient(147.6deg, rgba(58, 19, 255, 0) 29.79%,
+     rgba(98, 19, 255, 0.01) 85.72%), #13111C;
+     color: #ffffff;
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     align-items: center;
+     padding-top: 5rem;
+}
+
+.portfolioCont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.portfolioCont h2{
+   font-size: 1.2rem;
+}
+
+.imgCont{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.images{
+    width: 30%;
+    height: auto;
+}
+
+.images img{
+    border-radius: 10px;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 250px) and (max-width: 640px){
+    .imgCont{
+        width: 100%;
+        gap: 25px;
+    }
+
+    .images{
+        width: 90%;
+        margin: 0;
+    }
+
+    .images img{
+      object-fit: cover;
+    }
+
+    #portfolio{
+        height: auto;
+    }
+
+    .portfolioCont{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px){
+    .imgCont{
+        width: 100%;
+        gap: 25px;
+    }
+
+    .images{
+        width: 46%;
+    }
+
+    .images img{
+      object-fit: cover;
+    }
+
+    .portfolioCont{
+        width: 100%;
+        gap:3rem;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media(min-width:769px) and (max-width: 1024px){
+    .imgCont{
+        width: 90%;
+        gap: 27px;
+    }
+
+    .images{
+        width: 32%;
+    }
+
+    .images img{
+      object-fit: cover;
+    }
+
+    .portfolioCont{
+        width: 100%;
+        gap:2rem;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+}
