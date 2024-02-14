@@ -53,7 +53,7 @@ export function Testimonials(){
                  Their ability to weave narratives through images is truly extraordinary.
                 </p>
 
-                <p className='testiDown'>
+                <p className='testiDown'> 
                 I had the pleasure of entrusting them with capturing the essence of a significant life event, and the resulting photographs surpassed all expectations. 
                 Each frame seemed to convey not just moments frozen in time, but emotions, connections, and the intricate beauty of the surrounding environment.
                 </p>
