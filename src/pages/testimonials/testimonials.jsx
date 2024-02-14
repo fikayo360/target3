@@ -16,7 +16,7 @@ export function Testimonials(){
                 </div>
 
                     <p className='testiDown'>
-                    Working with wilson was an absolute delight! Their creative vision brought my ideas to life, and the results were beyond my expectations. 
+                    Working with rafe was an absolute delight! Their creative vision brought my ideas to life, and the results were beyond my expectations. 
                     The attention to detail and unique perspective truly set them apart. I highly recommend their services to anyone seeking memorable and artistic photographs.
                     </p>
             </div>
@@ -31,7 +31,7 @@ export function Testimonials(){
                 </div>
             </div>
 
-                <p className='testiDown'>Incredible talent and a true professional! wilson has an exceptional ability to capture the essence of a moment.
+                <p className='testiDown'>Incredible talent and a true professional! Rafe has an exceptional ability to capture the essence of a moment.
                 </p>
 
                 <p className='testiDown'>Every photo tells a story, and the creativity behind each shot is truly impressive. 
